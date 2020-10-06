@@ -1,0 +1,62 @@
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop
+$ cd Repo1
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1
+$ git init
+Initialized empty Git repository in C:/Users/islande.derazin/Desktop/Repo1/.git/
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ ls
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ javac HelloWorld.java
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ java HelloWorld
+Hello, World
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HelloWorld.class
+        HelloWorld.java
+        javac
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ touch HelloWorld.java
+
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ javac HelloWorld.java
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ java HelloWorld
+Hello, World
+Today is October 5, 2020
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ git add .
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ git commit -m "We create HelloWorld.java and modify it."
+[master (root-commit) 56301b8] edit HelloWorld
+ 3 files changed, 7 insertions(+)
+ create mode 100644 HelloWorld.class
+ create mode 100644 HelloWorld.java
+ create mode 100644 javac
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$ git log
+commit 56301b80070b01e9a4d4f526ccda3df4da5469c5 (HEAD -> master)
+Author: Landydera <derazinislande@gmail.com>
+Date:   Mon Oct 5 00:34:36 2020 -0400
+
+    We create HelloWorld.java and modify it.
+
+islande.derazin@DESKTOP-7N3ISRP MINGW64 ~/Desktop/Repo1 (master)
+$
