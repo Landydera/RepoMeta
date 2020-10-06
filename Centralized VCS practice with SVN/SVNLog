@@ -1,0 +1,20 @@
+
+# imported folder structure 
+# then, create new repository to keep track of file
+# add HelloWorld.java to Repository
+# commit file
+
+Command: Commit to file:///C:/Users/islande.derazin/Desktop/SVNRepository  
+Adding: C:\Users\islande.derazin\Desktop\Repo2\HelloWorld.java  
+Sending content: C:\Users\islande.derazin\Desktop\Repo2\HelloWorld.java  
+Committing transaction...:   
+Completed: At revision: 3  
+
+# edit file
+# commit again
+
+Command: Commit to file:///C:/Users/islande.derazin/Desktop/SVNRepository  
+Adding: C:\Users\islande.derazin\Desktop\Repo2\HelloWorld.java  
+Sending content: C:\Users\islande.derazin\Desktop\Repo2\HelloWorld.java  
+Committing transaction...:   
+Completed: At revision: 4  
